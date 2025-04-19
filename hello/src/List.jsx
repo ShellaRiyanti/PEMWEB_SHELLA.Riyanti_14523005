@@ -5,7 +5,6 @@ class List extends Component{
     render(){
         return(
             <div>
-            
                 <ol>
                     <li>1 <Images linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/food1.jpg"/></li>
                     <li>2 <Images linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/nasipadang.jpg"/></li>
@@ -13,7 +12,7 @@ class List extends Component{
                     <li>4 <Images linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sotolamongan.png"/></li>
                 </ol>
             </div>
-        );
+        )
     }
 }
 export default List;
